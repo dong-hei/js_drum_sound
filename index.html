@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>piano</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="keys">
+        <div data-key="65" class="key">
+            <kbd>A</kbd>
+            <span class="sound">clap</span>
+        </div>
+
+        <div data-key="83" class="key">
+            <kbd>S</kbd>
+            <span class="sound">hat</span>
+        </div>
+
+        <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <span class="sound">perc</span>
+        </div>
+
+        <div data-key="70" class="key">
+            <kbd>F</kbd>
+            <span class="sound">tom</span>
+        </div>
+
+        <div data-key="71" class="key">
+            <kbd>G</kbd>
+            <span class="sound">snare</span>
+        </div>
+
+        <div data-key="72" class="key">
+            <kbd>H</kbd>
+            <span class="sound">clock</span>
+        </div>
+
+        <div data-key="74" class="key">
+            <kbd>J</kbd>
+            <span class="sound">kick</span>
+        </div>
+
+        <div data-key="75" class="key">
+            <kbd>K</kbd>
+            <span class="sound">boom</span>
+        </div>
+    </div>
+</div>
+
+
+<audio data-key="65" src="https://raw.githubusercontent.com/MaeganW/Javascript-Drum-Kit/master/sounds/ConfettiClap.wav"></audio>
+<audio data-key="83" src="https://raw.githubusercontent.com/MaeganW/Javascript-Drum-Kit/master/sounds/BlastHat.wav"></audio>
+<audio data-key="68" src="https://raw.githubusercontent.com/MaeganW/Javascript-Drum-Kit/master/sounds/BlankPerc.wav"></audio>
+<audio data-key="70" src="https://raw.githubusercontent.com/MaeganW/Javascript-Drum-Kit/master/sounds/Tom.wav"></audio>
+<audio data-key="71" src="https://raw.githubusercontent.com/MaeganW/Javascript-Drum-Kit/master/sounds/BenjaminSnare.wav"></audio>
+<audio data-key="72" src="https://raw.githubusercontent.com/MaeganW/Javascript-Drum-Kit/master/sounds/LipPerc.wav"></audio>
+<audio data-key="74" src="https://raw.githubusercontent.com/MaeganW/Javascript-Drum-Kit/master/sounds/OldKick2.wav"></audio>
+<audio data-key="75" src="https://raw.githubusercontent.com/MaeganW/Javascript-Drum-Kit/master/sounds/BoomKick2.wav"></audio>
+  <script src="main.js"></script>
+</body>
+</html>
